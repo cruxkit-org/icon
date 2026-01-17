@@ -1,6 +1,6 @@
 {
 	"name"                             : "@cruxkit/icon",
-	"version"                          : "0.0.2",
+	"version"                          : "0.0.3",
 	"description"                      : "A lightweight, type-safe icon library offering full TypeScript support and effortless customization.",
 	"keywords"                         : ["crux", "kit", "icon"],
 	"license"                          : "MIT",

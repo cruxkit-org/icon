@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/v-0.0.2-black"/>
+    <img src="https://img.shields.io/badge/v-0.0.3-black"/>
     <a href="https://github.com/cruxkit-org"><img src="https://img.shields.io/badge/🔥-@cruxkit-black"/></a>
     <br>
     <img src="https://img.shields.io/badge/coverage-99%25-brightgreen" alt="Test Coverage" />
@@ -44,7 +44,7 @@
 
     ```ts
     // in your ts files
-    import { ... } from `@cruxkit/icon`;
+    import { Icon } from `@cruxkit/icon`;
     ```
 
     <div align="center"> <img src="./assets/img/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/> </div>
@@ -54,16 +54,12 @@
     - ### Basic usage
 
         ```typescript
-        import { Icon } from '@cruxkit/icon';
-
         const ChevronDown = Icon('chevron-down');
         ```
 
     - ### With options
 
         ```typescript
-        import { Icon } from '@cruxkit/icon';
-
         const LargePrimaryChevron = Icon({
             name    : 'chevron-down',
             size    : 'xl',
@@ -74,8 +70,6 @@
     - ### Custom SVG
 
         ```typescript
-        import { Icon } from '@cruxkit/icon';
-
         const CustomCircle = Icon({
             svg     : `<circle cx="12" cy="12" r="10" />`,
             viewBox : '0 0 24 24',
