@@ -7,6 +7,7 @@
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
     import { beforeAll, describe, expect, test, spyOn } from 'bun:test';
+    import { JSDOM } from 'jsdom';
     import {
         getIconCategories,
         getIconNames,
@@ -22,43 +23,17 @@
 
 
 
-// ╔════════════════════════════════════════ SETUP ═══════════════════════════════════════╗
+// ╔════════════════════════════════════════ INIT ════════════════════════════════════════╗
 
-    class FakeNode {
-        style = {
-            setProperty(_name: string, _value: string) {
-                // no-op
-            },
-        };
-
-        appendChild(child: FakeNode) {
-            return child;
-        }
-
-        setAttribute(_name: string, _value: string) {
-            // no-op
-        }
-    }
-
-    class FakeDocumentFragment extends FakeNode {}
-
-    beforeAll(() => {
-        (globalThis as any).Node = FakeNode;
-        (globalThis as any).document = {
-            createDocumentFragment() {
-                return new FakeDocumentFragment();
-            },
-            createElementNS(_ns: string, _tag: string) {
-                return new FakeNode();
-            },
-            createElement(_tag: string) {
-                return new FakeNode();
-            },
-            createTextNode(_text: string) {
-                return new FakeNode();
-            },
-        };
-    });
+    // Setup DOM environment
+    const dom               = new JSDOM('<!DOCTYPE html><html><body></body></html>');
+    global.document         = dom.window.document;
+    global.window           = dom.window as any;
+    global.HTMLElement      = dom.window.HTMLElement;
+    global.Element          = dom.window.Element;
+    global.Text             = dom.window.Text;
+    global.DocumentFragment = dom.window.DocumentFragment;
+    global.Node             = dom.window.Node;
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 
