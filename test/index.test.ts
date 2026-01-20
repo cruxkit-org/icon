@@ -55,46 +55,46 @@
         test('iconCatalog exposes at least one icon', () => {
             const names = Object.keys(iconCatalog) as IconName[];
             expect(names.length).toBeGreaterThan(0);
-            expect(names).toContain('chevron-down');
+            expect(names).toContain('arrow-down');
         });
 
         test('iconExists returns true for existing icons and false otherwise', () => {
-            expect(iconExists('chevron-down')).toBe(true);
+            expect(iconExists('arrow-down')).toBe(true);
             expect(iconExists('non-existent-icon')).toBe(false);
         });
 
         test('getIconNames returns all catalog icon names', () => {
             const names = getIconNames();
-            expect(names).toContain('chevron-down');
+            expect(names).toContain('arrow-down');
             expect(new Set(names).size).toBe(names.length);
         });
 
         test('getIconCategories and getIconsByCategory are consistent', () => {
             const categories = getIconCategories();
             expect(categories.length).toBeGreaterThan(0);
-            expect(categories).toContain('chevron');
+            expect(categories).toContain('arrow');
 
-            const chevronIcons = getIconsByCategory('chevron');
-            expect(chevronIcons).toContain('chevron-down');
+            const arrowIcons = getIconsByCategory('arrow');
+            expect(arrowIcons).toContain('arrow-down');
         });
 
         test('Icon renders catalog icon when called with name string', () => {
-            const element = Icon('chevron-down');
+            const element = Icon('arrow-down');
             expect(element).not.toBeNull();
         });
 
         test('Icon renders catalog icon when called with config name', () => {
-            const element = Icon({ name: 'chevron-down' });
+            const element = Icon({ name: 'arrow-down' });
             expect(element).not.toBeNull();
         });
 
         test('Icon uses numeric size when provided', () => {
-            const element = Icon({ name: 'chevron-down', size: 32 });
+            const element = Icon({ name: 'arrow-down', size: 32 });
             expect(element).not.toBeNull();
         });
 
         test('Icon falls back to medium size when none provided', () => {
-            const element = Icon({ name: 'chevron-down' });
+            const element = Icon({ name: 'arrow-down' });
             expect(element).not.toBeNull();
         });
 

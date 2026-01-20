@@ -5,7 +5,7 @@
 	"repo": {
 		"org"           : "cruxkit",
 		"name"          : "icon",
-		"version"       : "0.0.4",
+		"version"       : "0.0.5",
 		"desc"          : "A lightweight, type-safe icon library offering full TypeScript support and effortless customization.",
 		"kw"            : ["crux", "kit", "icon"],
 		"license"       : "MIT",

@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/v-0.0.4-black"/>
+    <img src="https://img.shields.io/badge/v-0.0.5-black"/>
     <a href="https://github.com/cruxkit-org"><img src="https://img.shields.io/badge/🔥-@cruxkit-black"/></a>
     <br>
     <img src="https://img.shields.io/badge/coverage-99%25-brightgreen" alt="Test Coverage" />
@@ -54,14 +54,14 @@
     - ### Basic usage
 
         ```typescript
-        const ChevronDown = Icon('chevron-down');
+        const arrowDown = Icon('arrow-down');
         ```
 
     - ### With options
 
         ```typescript
-        const LargePrimaryChevron = Icon({
-            name    : 'chevron-down',
+        const LargePrimaryarrow = Icon({
+            name    : 'arrow-down',
             size    : 'xl',
             color   : '#111827',
         });
