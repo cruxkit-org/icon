@@ -6,6 +6,16 @@ declare const iconCatalog: {
         readonly viewBox: "0 0 448 512";
         readonly svg: "<path opacity=\".4\" fill=\"currentColor\" d=\"M224 0c17.7 0 32 14.3 32 32l0 168.6 144-83.1c15.3-8.8 34.9-3.6 43.7 11.7s3.6 34.9-11.7 43.7L288 256 432 339.1c15.3 8.8 20.6 28.4 11.7 43.7s-28.4 20.6-43.7 11.7L256 311.4 256 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-168.6-144 83.1c-15.3 8.8-34.9 3.6-43.7-11.7S.7 348 16 339.1L160 256 16 172.9C.7 164-4.5 144.5 4.3 129.1S32.7 108.6 48 117.4L192 200.6 192 32c0-17.7 14.3-32 32-32z\"/><path fill=\"currentColor\" d=\"\"/>";
     };
+    readonly 'check-double': {
+        readonly category: "ui";
+        readonly viewBox: "0 0 384 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M9.4 137.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c6.6 6.6 15.8 10 25.1 9.3s17.9-5.5 23.4-13.1l128-176c10.4-14.3 7.2-34.3-7.1-44.7s-34.3-7.2-44.7 7.1l-106 145.7-37.5-37.5c-12.5-12.5-32.8-12.5-45.3 0z\"/><path fill=\"currentColor\" d=\"M370.8 158.1c14.3 10.4 17.5 30.4 7.1 44.7l-192 264c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-96-96c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l69.5 69.5 170-233.7c10.4-14.3 30.4-17.5 44.7-7.1z\"/>";
+    };
+    readonly check: {
+        readonly category: "ui";
+        readonly viewBox: "0 0 448 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M434.8 70.1c14.3 10.4 17.5 30.4 7.1 44.7l-256 352c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l101.5 101.5 234-321.7c10.4-14.3 30.4-17.5 44.7-7.1z\"/><path fill=\"currentColor\" d=\"\"/>";
+    };
     readonly door: {
         readonly category: "ui";
         readonly viewBox: "0 0 512 512";
@@ -51,10 +61,25 @@ declare const iconCatalog: {
         readonly viewBox: "0 0 384 512";
         readonly svg: "<path opacity=\".4\" fill=\"currentColor\" d=\"M64 96l0 64 64 0 0-64c0-35.3 28.7-64 64-64s64 28.7 64 64l0 64 64 0 0-64c0-70.7-57.3-128-128-128S64 25.3 64 96z\"/><path fill=\"currentColor\" d=\"M64 160l256 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 224c0-35.3 28.7-64 64-64z\"/>";
     };
+    readonly minus: {
+        readonly category: "ui";
+        readonly viewBox: "0 0 448 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32z\"/><path fill=\"currentColor\" d=\"\"/>";
+    };
     readonly moon: {
         readonly category: "ui";
         readonly viewBox: "0 0 512 512";
         readonly svg: "<path opacity=\".4\" fill=\"currentColor\" d=\"M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z\"/><path fill=\"currentColor\" d=\"\"/>";
+    };
+    readonly 'plus-minus': {
+        readonly category: "ui";
+        readonly viewBox: "0 0 384 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M0 480c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32z\"/><path fill=\"currentColor\" d=\"M224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128-128 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l128 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-128 0 0-128z\"/>";
+    };
+    readonly plus: {
+        readonly category: "ui";
+        readonly viewBox: "0 0 448 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z\"/><path fill=\"currentColor\" d=\"\"/>";
     };
     readonly search: {
         readonly category: "ui";
@@ -80,6 +105,11 @@ declare const iconCatalog: {
         readonly category: "ui";
         readonly viewBox: "0 0 448 512";
         readonly svg: "<path fill=\"currentColor\" d=\"M224 248a120 120 0 1 0 0-240 120 120 0 1 0 0 240zm-29.7 56C95.8 304 16 383.8 16 482.3 16 498.7 29.3 512 45.7 512l356.6 0c16.4 0 29.7-13.3 29.7-29.7 0-98.5-79.8-178.3-178.3-178.3l-59.4 0z\"/>";
+    };
+    readonly x: {
+        readonly category: "ui";
+        readonly viewBox: "0 0 384 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z\"/><path fill=\"currentColor\" d=\"\"/>";
     };
     readonly 'shield-check': {
         readonly category: "shield";
@@ -130,6 +160,26 @@ declare const iconCatalog: {
         readonly category: "chevron";
         readonly viewBox: "0 0 320 512";
         readonly svg: "<path opacity=\".4\" fill=\"currentColor\" d=\"M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z\"/><path fill=\"currentColor\" d=\"\"/>";
+    };
+    readonly 'bell-on': {
+        readonly category: "bell";
+        readonly viewBox: "0 0 640 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M96 380.5c0 19.6 15.9 35.5 35.5 35.5l376.9 0c19.6 0 35.5-15.9 35.5-35.5 0-8.1-2.7-15.9-7.8-22.2l-9.8-12.2C496.4 308.5 480 261.8 480 213.7l0-21.7c0-77.4-55-142-128-156.8l0-3.2c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 3.2C215 50 160 114.6 160 192l0 21.7c0 48.1-16.4 94.8-46.4 132.4l-9.8 12.2c-5 6.3-7.8 14.1-7.8 22.2z\"/><path fill=\"currentColor\" d=\"M606.1 14.5c5.2 12.2-.4 26.3-12.6 31.5l-56 24c-12.2 5.2-26.3-.4-31.5-12.6s.4-26.3 12.6-31.5l56-24c12.2-5.2 26.3 .4 31.5 12.6zM0 184c0-13.3 10.7-24 24-24l64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0c-13.3 0-24-10.7-24-24zM258 464l124 0c-7.1 27.6-32.2 48-62 48s-54.9-20.4-62-48zM552 160l64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zM46.5 46.1C34.4 40.8 28.7 26.7 33.9 14.5S53.3-3.3 65.5 1.9l56 24c12.2 5.2 17.8 19.3 12.6 31.5s-19.3 17.8-31.5 12.6l-56-24z\"/>";
+    };
+    readonly 'bell-ring': {
+        readonly category: "bell";
+        readonly viewBox: "0 0 512 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M32 380.5C32 400.1 47.9 416 67.5 416l376.9 0c19.6 0 35.5-15.9 35.5-35.5 0-8.1-2.7-15.9-7.8-22.2l-9.8-12.2C432.4 308.5 416 261.8 416 213.7l0-21.7c0-77.4-55-142-128-156.8l0-3.2c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 3.2C151 50 96 114.6 96 192l0 21.7c0 48.1-16.4 94.8-46.4 132.4l-9.8 12.2c-5 6.3-7.8 14.1-7.8 22.2z\"/><path fill=\"currentColor\" d=\"M112.6 41.4c9.6-9.1 10-24.3 .8-33.9S89-2.5 79.4 6.6C30.5 53.2 0 119.1 0 192 0 205.3 10.7 216 24 216s24-10.7 24-24c0-59.3 24.8-112.7 64.6-150.6zm320-34.8c-9.6-9.1-24.8-8.8-33.9 .8s-8.8 24.8 .8 33.9c39.8 37.9 64.6 91.4 64.6 150.6 0 13.3 10.7 24 24 24s24-10.7 24-24c0-72.9-30.5-138.8-79.4-185.4zM256 512c29.8 0 54.9-20.4 62-48l-124 0c7.1 27.6 32.2 48 62 48z\"/>";
+    };
+    readonly 'bell-slash': {
+        readonly category: "bell";
+        readonly viewBox: "0 0 576 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M64 380.5C64 400.1 79.9 416 99.5 416l246.6 0-218.2-218.2 0 15.8c0 48.1-16.4 94.8-46.4 132.4l-9.8 12.2c-5 6.3-7.8 14.1-7.8 22.2zM226 464c7.1 27.6 32.2 48 62 48s54.9-20.4 62-48l-124 0z\"/><path fill=\"currentColor\" d=\"M7-24.9c9.4-9.4 24.6-9.4 33.9 0L160.8 94.9C183.8 64.8 217.4 43 256 35.2l0-3.2c0-17.7 14.3-32 32-32s32 14.3 32 32l0 3.2C393 50 448 114.6 448 192l0 21.7c0 48.1 16.4 94.8 46.4 132.4l9.8 12.2c5 6.3 7.8 14.1 7.8 22.2 0 17.9-13.3 32.7-30.5 35.2L569 503.1c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L7 9.1C-2.3-.3-2.3-15.5 7-24.9z\"/>";
+    };
+    readonly bell: {
+        readonly category: "bell";
+        readonly viewBox: "0 0 448 512";
+        readonly svg: "<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=\".4\" fill=\"currentColor\" d=\"M0 380.5C0 400.1 15.9 416 35.5 416l376.9 0c19.6 0 35.5-15.9 35.5-35.5 0-8.1-2.7-15.9-7.8-22.2l-9.8-12.2C400.4 308.5 384 261.8 384 213.7l0-21.7c0-77.4-55-142-128-156.8l0-3.2c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 3.2C119 50 64 114.6 64 192l0 21.7c0 48.1-16.4 94.8-46.4 132.4L7.8 358.3c-5 6.3-7.8 14.1-7.8 22.2z\"/><path fill=\"currentColor\" d=\"M162 464c7.1 27.6 32.2 48 62 48s54.9-20.4 62-48l-124 0z\"/>";
     };
     readonly 'bars-filter': {
         readonly category: "bars";
