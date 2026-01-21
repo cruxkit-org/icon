@@ -7,12 +7,12 @@ export const uiIcons = {
   'check-double': {
     category: 'ui',
     viewBox: '0 0 384 512',
-    svg: `<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=".4" fill="currentColor" d="M9.4 137.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c6.6 6.6 15.8 10 25.1 9.3s17.9-5.5 23.4-13.1l128-176c10.4-14.3 7.2-34.3-7.1-44.7s-34.3-7.2-44.7 7.1l-106 145.7-37.5-37.5c-12.5-12.5-32.8-12.5-45.3 0z"/><path fill="currentColor" d="M370.8 158.1c14.3 10.4 17.5 30.4 7.1 44.7l-192 264c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-96-96c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l69.5 69.5 170-233.7c10.4-14.3 30.4-17.5 44.7-7.1z"/>`,
+    svg: `<path opacity=".4" fill="currentColor" d="M9.4 137.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c6.6 6.6 15.8 10 25.1 9.3s17.9-5.5 23.4-13.1l128-176c10.4-14.3 7.2-34.3-7.1-44.7s-34.3-7.2-44.7 7.1l-106 145.7-37.5-37.5c-12.5-12.5-32.8-12.5-45.3 0z"/><path fill="currentColor" d="M370.8 158.1c14.3 10.4 17.5 30.4 7.1 44.7l-192 264c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-96-96c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l69.5 69.5 170-233.7c10.4-14.3 30.4-17.5 44.7-7.1z"/>`,
   },
   'check': {
     category: 'ui',
     viewBox: '0 0 448 512',
-    svg: `<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=".4" fill="currentColor" d="M434.8 70.1c14.3 10.4 17.5 30.4 7.1 44.7l-256 352c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l101.5 101.5 234-321.7c10.4-14.3 30.4-17.5 44.7-7.1z"/><path fill="currentColor" d=""/>`,
+    svg: `<path opacity=".4" fill="currentColor" d="M434.8 70.1c14.3 10.4 17.5 30.4 7.1 44.7l-256 352c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l101.5 101.5 234-321.7c10.4-14.3 30.4-17.5 44.7-7.1z"/><path fill="currentColor" d=""/>`,
   },
   'door': {
     category: 'ui',
@@ -62,7 +62,7 @@ export const uiIcons = {
   'minus': {
     category: 'ui',
     viewBox: '0 0 448 512',
-    svg: `<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=".4" fill="currentColor" d="M0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32z"/><path fill="currentColor" d=""/>`,
+    svg: `<path opacity=".4" fill="currentColor" d="M0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32z"/><path fill="currentColor" d=""/>`,
   },
   'moon': {
     category: 'ui',
@@ -72,12 +72,12 @@ export const uiIcons = {
   'plus-minus': {
     category: 'ui',
     viewBox: '0 0 384 512',
-    svg: `<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=".4" fill="currentColor" d="M0 480c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32z"/><path fill="currentColor" d="M224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128-128 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l128 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-128 0 0-128z"/>`,
+    svg: `<path opacity=".4" fill="currentColor" d="M0 480c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32z"/><path fill="currentColor" d="M224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128-128 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l128 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-128 0 0-128z"/>`,
   },
   'plus': {
     category: 'ui',
     viewBox: '0 0 448 512',
-    svg: `<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=".4" fill="currentColor" d="M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z"/><path fill="currentColor" d=""/>`,
+    svg: `<path opacity=".4" fill="currentColor" d="M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z"/><path fill="currentColor" d=""/>`,
   },
   'search': {
     category: 'ui',
@@ -107,7 +107,7 @@ export const uiIcons = {
   'x': {
     category: 'ui',
     viewBox: '0 0 384 512',
-    svg: `<!--! Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. --><path opacity=".4" fill="currentColor" d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/><path fill="currentColor" d=""/>`,
+    svg: `<path opacity=".4" fill="currentColor" d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z"/><path fill="currentColor" d=""/>`,
   },
 } as const;
 
