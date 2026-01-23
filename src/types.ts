@@ -14,7 +14,7 @@
 
 // ╔════════════════════════════════════════ TYPE ════════════════════════════════════════╗
 
-    export type IconSize        = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | number;
+    export type IconSize        = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | number;
 
     export type IconData        = Record<string, unknown>;
     export { iconCatalog };
