@@ -29,6 +29,7 @@ import { cartIcons } from './cart';
 import { chartIcons } from './chart';
 import { checkIcons } from './check';
 import { chevronIcons } from './chevron';
+import { circleIcons } from './circle';
 import { clockIcons } from './clock';
 import { cloudIcons } from './cloud';
 import { codeIcons } from './code';
@@ -37,6 +38,7 @@ import { compassIcons } from './compass';
 import { cookieIcons } from './cookie';
 import { diagramIcons } from './diagram';
 import { doorIcons } from './door';
+import { emailIcons } from './email';
 import { fileIcons } from './file';
 import { filterIcons } from './filter';
 import { flagIcons } from './flag';
@@ -131,6 +133,7 @@ export const iconCatalog = {
   ...chartIcons,
   ...checkIcons,
   ...chevronIcons,
+  ...circleIcons,
   ...clockIcons,
   ...cloudIcons,
   ...codeIcons,
@@ -139,6 +142,7 @@ export const iconCatalog = {
   ...cookieIcons,
   ...diagramIcons,
   ...doorIcons,
+  ...emailIcons,
   ...fileIcons,
   ...filterIcons,
   ...flagIcons,
@@ -236,6 +240,7 @@ export const iconsByCategory = {
   'chart': ['chart-area', 'chart-bar', 'chart-bullet', 'chart-candlestick', 'chart-column', 'chart-diagram', 'chart-fft', 'chart-gantt', 'chart-kanban', 'chart-line-down', 'chart-line-up-down', 'chart-line-up', 'chart-line', 'chart-mixed-up-circle-dollar', 'chart-mixed', 'chart-network', 'chart-pie-simple-circle-dollar', 'chart-pie-simple', 'chart-pie', 'chart-pyramid', 'chart-radar', 'chart-scatter-3d', 'chart-scatter-bubble', 'chart-scatter', 'chart-simple-horizontal', 'chart-simple', 'chart-sine', 'chart-tree-map', 'chart-user', 'chart-waterfall'],
   'check': ['check-double', 'check'],
   'chevron': ['chevron-down', 'chevron-left'],
+  'circle': ['circle-bolt', 'circle-check', 'circle-exclamation', 'circle-info', 'circle-plus', 'circle-user', 'circle-waveform-lines', 'circle-wifi', 'circle-xmark'],
   'clock': ['clock-eight-thirty', 'clock-rotate-left', 'clock-six-thirty', 'clock'],
   'cloud': ['cloud-arrow-down', 'cloud-arrow-up', 'cloud-check', 'cloud-minus', 'cloud-plus', 'cloud'],
   'code': ['code-branch', 'code-commit', 'code-compare', 'code-fork', 'code-merge', 'code-pull-request-closed', 'code-pull-request-draft', 'code-pull-request', 'code-simple', 'code'],
@@ -244,6 +249,7 @@ export const iconsByCategory = {
   'cookie': ['cookie-bite', 'cookie'],
   'diagram': ['diagram-cells', 'diagram-nested', 'diagram-project', 'diagram-sankey'],
   'door': ['door-closed', 'door-open', 'dungeon'],
+  'email': ['envelope-circle-check', 'envelope-circle-user', 'envelope-dot', 'envelope-open-text', 'envelope-open', 'envelope-ribbon', 'envelope'],
   'file': ['file-arrow-down', 'file-arrow-up', 'file-binary', 'file-brackets-curly', 'file-chart-column', 'file-code', 'file-exclamation', 'file-image', 'file-lock', 'file-medical', 'file-minus', 'file'],
   'filter': ['filter-list', 'filter-slash', 'filter', 'filters'],
   'flag': ['flag-checkered', 'flag-pennant', 'flag-swallowtail', 'flag'],
@@ -297,7 +303,7 @@ export const iconsByCategory = {
   'things': ['alien-8bit', 'alien', 'butterfly', 'ghost', 'gingerbread-man', 'hippo', 'horse', 'mask', 'masks-theater', 'narwhal', 'paw', 'rabbit-running', 'rabbit', 'raccoon', 'skull', 'unicorn'],
   'transporter': ['transporter-1', 'transporter-2', 'transporter-3', 'transporter-4', 'transporter-5', 'transporter-6', 'transporter-empty', 'transporter'],
   'trash': ['trash-can-clock', 'trash-can-slash', 'trash-can', 'trash-slash', 'trash'],
-  'ui': ['at', 'bluetooth', 'brain-circuit', 'brain', 'browser', 'brush', 'bullhorn', 'buoy-mooring', 'buoy', 'burger', 'burst', 'cake-candles', 'credit-card', 'crop-simple', 'crop', 'cube', 'cubes', 'cup-straw', 'cupcake', 'desktop-arrow-down', 'desktop', 'fingerprint', 'fire-flame-curved', 'fire', 'football', 'futbol', 'galaxy', 'game-board', 'gavel', 'gif', 'gift-card', 'gift', 'glasses', 'highlighter-line', 'highlighter', 'infinity', 'life-ring', 'midi', 'minimize', 'mustache', 'pause', 'play-pause', 'play', 'podcast', 'pump-impeller', 'radiation', 'ribbon', 'route-highway', 'route-interstate', 'router', 'rss', 'search', 'shuffle', 'sitemap', 'slider', 'sliders', 'smoking', 'snake', 'snowflake', 'snowman', 'sparkles', 'splotch', 'stocking', 'tv', 'volleyball', 'wind', 'window', 'wireless', 'wrench-simple', 'wrench', 'x', 'yin-yang'],
+  'ui': ['at', 'bluetooth', 'brain-circuit', 'brain', 'browser', 'brush', 'bullhorn', 'buoy-mooring', 'buoy', 'burger', 'burst', 'cake-candles', 'credit-card', 'crop-simple', 'crop', 'cube', 'cubes', 'cup-straw', 'cupcake', 'desktop-arrow-down', 'desktop', 'exclamation', 'fingerprint', 'fire-flame-curved', 'fire', 'football', 'futbol', 'galaxy', 'game-board', 'gavel', 'gif', 'gift-card', 'gift', 'glasses', 'highlighter-line', 'highlighter', 'infinity', 'info', 'life-ring', 'midi', 'minimize', 'mustache', 'pause', 'play-pause', 'play', 'podcast', 'pump-impeller', 'radiation', 'ribbon', 'route-highway', 'route-interstate', 'router', 'rss', 'search', 'shuffle', 'sitemap', 'slider', 'sliders', 'smoking', 'snake', 'snowflake', 'snowman', 'sparkles', 'splotch', 'stocking', 'triangle-exclamation', 'tv', 'volleyball', 'wind', 'window', 'wireless', 'wrench-simple', 'wrench', 'x', 'yin-yang'],
   'user': ['user-alien', 'user-astronaut', 'user-beard', 'user-check', 'user-circle-minus', 'user-circle-plus', 'user-gear', 'user-group-crown', 'user-group-simple', 'user-group', 'user-key', 'user-lock', 'user-microphone', 'user-minus', 'user-pen', 'user-plus', 'user-question', 'user-shield', 'user-slash', 'user-solid', 'user-tag', 'user-tie', 'user-unlock', 'user-viewfinder', 'user-xmark', 'user', 'users-gear', 'users-slash', 'users'],
   'uturn': ['u-turn-down-left', 'u-turn-left-down'],
   'virus': ['virus-covid-slash', 'virus-covid', 'virus-slash', 'virus', 'viruses'],
